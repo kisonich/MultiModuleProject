@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    implementation project(':db')      // Зависимость от модуля db
+    implementation project(':service') // Зависимость от модуля service
+}
